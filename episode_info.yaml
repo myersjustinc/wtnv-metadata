@@ -1,0 +1,48 @@
+- episode_number: 1
+  title: Pilot
+  mp3_url: http://traffic.libsyn.com/nightvale/1-Pilot.mp3
+  segments:
+    - title: Intro
+      start: 0
+    - title: Dog park
+      start: 37
+    - title: Angels
+      start: 86
+    - title: New man
+      start: 123
+    - title: Safety
+      start: 162
+    - title: Airliner
+      start: 238
+    - title: Scientist
+      start: 301
+    - title: Harbor
+      start: 391
+    - title: NRA
+      start: 469
+    - title: Desert Creek
+      start: 508
+    - title: Post office
+      start: 550
+    - title: Arby's
+      start: 593
+    - title: Seismic shifts
+      start: 642
+    - title: Traffic
+      start: 692
+    - title: Weather
+      start: 737
+    - title: Sunset
+      start: 911
+    - title: Angels
+      start: 973
+    - title: Alligators
+      start: 1020
+    - title: Bowling alley
+      start: 1054
+    - title: Testing
+      start: 1115
+    - title: Good night
+      start: 1168
+    - title: Credits
+      start: 1195
