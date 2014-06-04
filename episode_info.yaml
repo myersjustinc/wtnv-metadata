@@ -50,8 +50,42 @@
   title: Glow Cloud
   mp3_url: http://traffic.libsyn.com/nightvale/2-GlowCloud.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Tourism
+      start: [0, 37]
+    - title: New cloud
+      start: [1, 6]
+    - title: Post office
+      start: [2, 16]
+    - title: Cat
+      start: [3, 23]
+    - title: Sponsor
+      start: [4, 17]
+    - title: Questionnaire
+      start: [5, 24]
+    - title: Boy Scouts
+      start: [6, 2]
+    - title: John Peters (you know, the farmer?)
+      start: [6, 42]
+    - title: Fugitive
+      start: [7, 59]
+    - title: Community Calendar
+      start: [9, 59]
+    - title: Glow Cloud grows
+      start: [11, 37]
+    - title: Weather
+      start: [13, 3]
+    - title: Glow Cloud departs
+      start: [16, 2]
+    - title: Moral
+      start: [16, 40]
+    - title: A list of things
+      start: [17, 45]
+    - title: Good night
+      start: [19, 5]
+    - title: Credits
+      start: [19, 12]
 - episode_number: 3
   title: Station Management
   mp3_url: http://traffic.libsyn.com/nightvale/3-StationManagement.mp3
