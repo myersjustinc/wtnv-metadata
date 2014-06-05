@@ -90,8 +90,40 @@
   title: Station Management
   mp3_url: http://traffic.libsyn.com/nightvale/3-StationManagement.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Daily Journal
+      start: [0, 40]
+    - title: Stadium
+      start: [1, 21]
+    - title: Contract negotiation
+      start: [2, 33]
+    - title: Seven-day outlook
+      start: [4, 08]
+    - title: Clean up litter
+      start: [4, 45]
+    - title: Books
+      start: [5, 29]
+    - title: Sporting goods
+      start: [6, 28]
+    - title: Creeping fear
+      start: [7, 46]
+    - title: Haircut
+      start: [9, 23]
+    - title: Traffic
+      start: [11, 16]
+    - title: Letter-writing campaign
+      start: [11, 48]
+    - title: Sponsor
+      start: [12, 57]
+    - title: Weather
+      start: [14, 21]
+    - title: Hiding
+      start: [18, 5]
+    - title: Good night
+      start: [19, 36]
+    - title: Credits
+      start: [19, 54]
 - episode_number: 4
   title: PTA Meeting
   mp3_url: http://traffic.libsyn.com/nightvale/4-PTAMeeting.mp3
