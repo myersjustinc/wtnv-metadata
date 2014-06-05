@@ -128,8 +128,38 @@
   title: PTA Meeting
   mp3_url: http://traffic.libsyn.com/nightvale/4-PTAMeeting.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Rift
+      start: [0, 38]
+    - title: Election season
+      start: [2, 36]
+    - title: Daily Journal
+      start: [3, 43]
+    - title: Secret Police statement
+      start: [5, 5]
+    - title: Auras
+      start: [6, 57]
+    - title: Radon Canyon
+      start: [7, 43]
+    - title: Corrections
+      start: [9, 34]
+    - title: Football
+      start: [10, 20]
+    - title: Editorial
+      start: [11, 47]
+    - title: Interview
+      start: [13, 10]
+    - title: Weather
+      start: [14, 39]
+    - title: Closure
+      start: [19, 23]
+    - title: Dog park
+      start: [20, 43]
+    - title: Good night
+      start: [21, 9]
+    - title: Credits
+      start: [22, 3]
 - episode_number: 5
   title: The Shape in Grove Park
   mp3_url: http://traffic.libsyn.com/nightvale/5-TheShapeInGrovePark.mp3
