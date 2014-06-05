@@ -164,8 +164,42 @@
   title: The Shape in Grove Park
   mp3_url: http://traffic.libsyn.com/nightvale/5-TheShapeInGrovePark.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Protest
+      start: [0, 34]
+    - title: Green Market Co-op
+      start: [1, 28]
+    - title: Michael Sandero
+      start: [2, 45]
+    - title: Tarantulas
+      start: [3, 36]
+    - title: Sponsor
+      start: [4, 19]
+    - title: Rita Hayworth
+      start: [5, 27]
+    - title: The Shape moves
+      start: [6, 16]
+    - title: Once on This Island
+      start: [7, 30]
+    - title: Green Market update
+      start: [8, 36]
+    - title: Children's Fun Fact Science Corner
+      start: [8, 49]
+    - title: Curriculum changes
+      start: [9, 55]
+    - title: Update on The Shape
+      start: [11, 40]
+    - title: Weather
+      start: [14, 14]
+    - title: Breaking news
+      start: [18, 6]
+    - title: Memorial
+      start: [18, 42]
+    - title: Good night
+      start: [19, 33]
+    - title: Credits
+      start: [20, 2]
 - episode_number: 6
   title: The Drawbridge
   mp3_url: http://traffic.libsyn.com/nightvale/6-TheDrawbridge.mp3
