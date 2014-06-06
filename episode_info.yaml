@@ -286,8 +286,38 @@
   title: The Lights in Radon Canyon
   mp3_url: http://traffic.libsyn.com/nightvale/8-TheLightsInRadonCanyon.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Lottery
+      start: [0, 35]
+    - title: Carlos
+      start: [2, 35]
+    - title: School Board
+      start: [3, 51]
+    - title: Traffic
+      start: [6, 42]
+    - title: Billboards
+      start: [7, 58]
+    - title: Pink Floyd
+      start: [9, 35]
+    - title: Football
+      start: [10, 9]
+    - title: Sponsor
+      start: [12, 42]
+    - title: The Abandoned Mine Shaft Outside of Town
+      start: [13, 29]
+    - title: Denial
+      start: [14, 11]
+    - title: Weather
+      start: [16, 45]
+    - title: Underground city
+      start: [20, 52]
+    - title: Life
+      start: [21, 41]
+    - title: Good night
+      start: [22, 29]
+    - title: Credits
+      start: [22, 55]
 - episode_number: 9
   title: PYRAMID
   mp3_url: http://traffic.libsyn.com/nightvale/9-PYRAMID.mp3
