@@ -204,8 +204,42 @@
   title: The Drawbridge
   mp3_url: http://traffic.libsyn.com/nightvale/6-TheDrawbridge.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Power outages
+      start: [0, 30]
+    - title: Drawbridge collapse
+      start: [1, 39]
+    - title: Pledge drive
+      start: [2, 37]
+    - title: Taxpayer concerns
+      start: [4, 19]
+    - title: Daily Journal
+      start: [5, 20]
+    - title: Softball Showdown
+      start: [6, 15]
+    - title: Press conference
+      start: [7, 56]
+    - title: Sponsor
+      start: [9, 14]
+    - title: Traffic
+      start: [9, 32]
+    - title: Horoscopes
+      start: [10, 32]
+    - title: Trees
+      start: [13, 9]
+    - title: Drawbridge budget
+      start: [15, 13]
+    - title: Editorial
+      start: [15, 51]
+    - title: Weather
+      start: [16, 55]
+    - title: Thanks
+      start: [20, 7]
+    - title: Good night
+      start: [21, 29]
+    - title: Credits
+      start: [21, 57]
 - episode_number: 7
   title: History Week
   mp3_url: http://traffic.libsyn.com/nightvale/7-HistoryWeek.mp3
