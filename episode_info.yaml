@@ -322,8 +322,38 @@
   title: PYRAMID
   mp3_url: http://traffic.libsyn.com/nightvale/9-PYRAMID.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Fugitive
+      start: [0, 35]
+    - title: Pyramid
+      start: [1, 30]
+    - title: Telly
+      start: [2, 55]
+    - title: Khoshekh
+      start: [4, 22]
+    - title: Pyramid speaks
+      start: [6, 33]
+    - title: Home repair
+      start: [8, 12]
+    - title: Public service announcement
+      start: [9, 32]
+    - title: Street signs
+      start: [11, 24]
+    - title: Sponsor
+      start: [12, 31]
+    - title: Denial
+      start: [14, 4]
+    - title: Weather
+      start: [15, 43]
+    - title: Disappearance
+      start: [20, 8]
+    - title: Final broadcast
+      start: [21, 4]
+    - title: Good night
+      start: [22, 8]
+    - title: Credits
+      start: [22, 36]
 - episode_number: 10
   title: Feral Dogs
   mp3_url: http://traffic.libsyn.com/nightvale/10-FeralDogs.mp3
