@@ -115,6 +115,10 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
         ffmpeg_args.extend(['-metadata', 'album="{episode_title}"'.format(
             episode_title=episode_title)])
 
+        # Fix the reported file duration. See
+        # https://trac.ffmpeg.org/ticket/2697 for details.
+        ffmpeg_args.extend(['-write_xing', '0'])
+
         # Determine where the segment should be saved.
         ffmpeg_args.append(os.path.join(output_dir, (
             '{episode_number}-{episode_title}-'
