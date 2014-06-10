@@ -111,7 +111,7 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
                 episode_number=episode_number,
                 episode_title=episode_title,
                 segment_title=segment_title))])
-        ffmpeg_args.extend(['-metadata', 'artist="Welcome to Night Vale'])
+        ffmpeg_args.extend(['-metadata', 'artist="Welcome to Night Vale"'])
         ffmpeg_args.extend(['-metadata', 'album="{episode_title}"'.format(
             episode_title=episode_title)])
 
