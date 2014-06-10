@@ -81,10 +81,12 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
 
     segments = episode_data['segments']
     segment_pairs = zip_longest(segments, segments[1:])
+    segment_count = len(segments)
 
     for i, (current_segment, next_segment) in enumerate(segment_pairs):
         ffmpeg_args = []
         segment_title = current_segment['title']
+        segment_number = i + 1
 
         # Figure out where the segment starts (in seconds).
         current_start = current_segment['start']
@@ -114,6 +116,10 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
         ffmpeg_args.extend(['-metadata', 'artist="Welcome to Night Vale"'])
         ffmpeg_args.extend(['-metadata', 'album="{episode_title}"'.format(
             episode_title=episode_title)])
+        ffmpeg_args.extend(['-metadata', (
+            'track="{segment_number}/{total_segments}"'.format(
+                segment_number=segment_number,
+                total_segments=segment_count))])
 
         # Fix the reported file duration. See
         # https://trac.ffmpeg.org/ticket/2697 for details.
@@ -121,11 +127,11 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
 
         # Determine where the segment should be saved.
         ffmpeg_args.append(os.path.join(output_dir, (
-            '{episode_number}-{episode_title}-'
-            '{segment_number}-{segment_title}.mp3'.format(
+            '{episode_number:0>3}-{episode_title}-'
+            '{segment_number:0>2}-{segment_title}.mp3'.format(
                 episode_number=episode_number,
                 episode_title=episode_title,
-                segment_number=i + 1,
+                segment_number=segment_number,
                 segment_title=segment_title))))
 
         # Tell ffmpeg to do the hard work.
