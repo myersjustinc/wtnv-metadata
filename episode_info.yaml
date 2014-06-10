@@ -396,8 +396,42 @@
   title: Wheat & Wheat By-Products
   mp3_url: http://traffic.libsyn.com/nightvale/11-WheatandWheatBy-Products.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Health insurance
+      start: [0, 31]
+    - title: Reminder
+      start: [1, 32]
+    - title: Apache Tracker
+      start: [2, 30]
+    - title: Bloodstones
+      start: [4, 5]
+    - title: Technical problems
+      start: [5, 32]
+    - title: Snakes
+      start: [6, 14]
+    - title: Property taxes
+      start: [7, 8]
+    - title: Spirit
+      start: [10, 18]
+    - title: Sorrow Songs Sing-Along
+      start: [11, 18]
+    - title: "[REDACTED]"
+      start: [12, 15]
+    - title: Earthquake
+      start: [12, 55]
+    - title: State of emergency
+      start: [14, 38]
+    - title: Weather
+      start: [16, 2]
+    - title: Angels
+      start: [17, 57]
+    - title: Good news
+      start: [18, 42]
+    - title: Good night
+      start: [20, 28]
+    - title: Credits
+      start: [20, 57]
 - episode_number: 12
   title: The Candidate
   mp3_url: http://traffic.libsyn.com/nightvale/12-TheCandidate.mp3
