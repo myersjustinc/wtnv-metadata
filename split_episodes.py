@@ -88,6 +88,22 @@ def download_file(remote_url, raw_dir, overwrite=False):
 
 def split_episode(
         episode_data, episode_filename, output_dir, ffmpeg, overwrite=False):
+    """
+    Splits an episode into segments using ffmpeg.
+
+    `episode_data` should be a dict such as those you might load from
+    episode_info.yaml.
+
+    `episode_filename` should be a path to the entire episode's MP3.
+
+    `output_dir` should be a path to the directory to which segment MP3s should
+    be written.
+
+    `ffmpeg` should be a path to the ffmpeg binary.
+
+    `overwrite` should be truthy if the user wants existing files to be
+    overwritten.
+    """
     episode_number = episode_data['episode_number']
     episode_title = episode_data['title']
 
@@ -156,6 +172,20 @@ def split_episode(
 
 def split_all_episodes(
         all_episode_data, raw_dir, output_dir, ffmpeg, overwrite):
+    """
+    Splits all episodes described in `all_episode_data`.
+
+    `raw_dir` should be a path to the directory to which full-episode MP3s
+    should be written.
+
+    `output_dir` should be a path to the directory to which segment MP3s should
+    be written.
+
+    `ffmpeg` should be a path to the ffmpeg binary.
+
+    `overwrite` should be truthy if the user wants existing files to be
+    overwritten.
+    """
     for episode_data in all_episode_data:
         episode_filename = download_file(
             episode_data['mp3_url'], raw_dir, overwrite)
