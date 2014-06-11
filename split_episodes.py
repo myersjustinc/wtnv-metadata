@@ -90,7 +90,7 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
         segment_number = i + 1
 
         # Figure out where the segment starts (in seconds).
-        current_start = current_segment['start']
+        current_start = map(float, current_segment['start'])
         current_start_seconds = current_start[0] * 60 + current_start[1]
         ffmpeg_args.extend(['-ss', str(current_start_seconds)])
 
@@ -99,7 +99,7 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
         # --ffmpeg will just go til the end of the episode, which is what we
         # want.
         if next_segment is not None:
-            next_start = next_segment['start']
+            next_start = map(float, next_segment['start'])
             next_start_seconds = next_start[0] * 60 + next_start[1]
             segment_length = next_start_seconds - current_start_seconds
             ffmpeg_args.extend(['-t', str(segment_length)])
