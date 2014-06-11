@@ -8,6 +8,7 @@ import sys
 
 from six.moves.urllib import parse, request
 from six.moves import zip_longest
+import yaml
 
 
 REPO_ROOT = os.path.dirname(__file__)
@@ -138,9 +139,18 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
         return_code, output = call_external_program(ffmpeg, *ffmpeg_args)
 
 
+def split_all_episodes(all_episode_data, raw_dir, output_dir, ffmpeg):
+    for episode_data in all_episode_data:
+        episode_filename = download_file(episode_data['mp3_url'], raw_dir)
+        split_episode(episode_data, episode_filename, output_dir, ffmpeg)
+
+
 def main(*args):
     script_args = parser.parse_args(args)
-    # TODO: Keep going.
+    all_episode_data = yaml.safe_load(script_args.data_file)
+    split_all_episodes(
+        all_episode_data, script_args.raw_dir, script_args.output_dir,
+        script_args.ffmpeg)
 
 
 if __name__ == '__main__':
