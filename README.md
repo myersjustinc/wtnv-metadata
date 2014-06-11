@@ -42,3 +42,27 @@ Usage information (from `split_episodes.py -h`):
 If you want to help improve the episode splitter or tag certain episodes, feel
 free! I'm always happy to look over pull requests, especially since some of the
 back episodes aren't tagged yet.
+
+## Q&A ##
+
+* **How does the episode info file work?**
+
+  It's written in [YAML](http://en.wikipedia.org/wiki/YAML), which is a nice,
+  human-readable data format that works a lot like
+  [JSON](http://en.wikipedia.org/wiki/JSON).
+
+  The use of it here is inspired by the
+  [unitedstates](https://github.com/unitedstates) project's
+  [legislator lists](https://github.com/unitedstates/congress-legislators).
+
+* **Where can I download segments of WTNV episodes?**
+
+  Not here. I don't want to get involved with copyright infringement by
+  distributing that stuff directly. I'm simply giving you a way to generate
+  those segments (sort of similar to
+  [format-shifting](http://en.wikipedia.org/wiki/Format_shifting) the
+  originals) by yourself if you choose to do so.
+
+* **Why isn't this called an FAQ section?**
+
+  Because nobody's actually asked me these questions yet--let alone frequently.
