@@ -436,8 +436,38 @@
   title: The Candidate
   mp3_url: http://traffic.libsyn.com/nightvale/12-TheCandidate.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 27]
+    - title: Sunsets
+      start: [1, 5]
+    - title: Arrest
+      start: [4, 11]
+    - title: Party
+      start: [5, 37]
+    - title: Blog
+      start: [6, 36]
+    - title: Breathing
+      start: [7, 20]
+    - title: Sponsor
+      start: [8, 45]
+    - title: Campaign
+      start: [9, 53]
+    - title: Emergency Dream Broadcast System
+      start: [10, 43]
+    - title: Santa
+      start: [12, 10]
+    - title: Weather
+      start: [13, 34]
+    - title: Message
+      start: [17, 46]
+    - title: Editorial
+      start: [18, 52]
+    - title: Good night
+      start: [21, 5]
+    - title: Credits
+      start: [22, 33]
 - episode_number: 13
   title: A Story About You.
   mp3_url: http://traffic.libsyn.com/nightvale/13-Astoryaboutyou.mp3
