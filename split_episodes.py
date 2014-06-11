@@ -43,6 +43,10 @@ parser.add_argument(
     '--ffmpeg', '-f',
     default='/usr/local/bin/ffmpeg',
     help='Path to ffmpeg')
+parser.add_argument(
+    '--overwrite', '-w',
+    action='store_true',
+    help='Overwrite existing files')
 
 
 def call_external_program(*args):
@@ -61,12 +65,18 @@ def call_external_program(*args):
         return e.returncode, e.output
 
 
-def download_file(remote_url, raw_dir):
+def download_file(remote_url, raw_dir, overwrite=False):
     """
     Downloads a remote file and returns its path.
+
+    If a file already exists at the intended path and `overwrite` is False (the
+    default), the download does not take place.
     """
     filename_only = posixpath.basename(parse.urlparse(remote_url).path)
     local_filename = os.path.join(raw_dir, filename_only)
+
+    if os.path.exists(local_filename) and not overwrite:
+        return local_filename
 
     remote_file = request.urlopen(remote_url)
     with open(local_filename, 'wb') as local_file:
@@ -76,7 +86,8 @@ def download_file(remote_url, raw_dir):
     return local_filename
 
 
-def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
+def split_episode(
+        episode_data, episode_filename, output_dir, ffmpeg, overwrite=False):
     episode_number = episode_data['episode_number']
     episode_title = episode_data['title']
 
@@ -88,6 +99,10 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
         ffmpeg_args = []
         segment_title = current_segment['title']
         segment_number = i + 1
+
+        # Tell ffmpeg whether to overwrite any file that might already exist
+        # for this segment.
+        ffmpeg_args.append('-y' if overwrite else '-n')
 
         # Figure out where the segment starts (in seconds).
         current_start = map(float, current_segment['start'])
@@ -139,10 +154,13 @@ def split_episode(episode_data, episode_filename, output_dir, ffmpeg):
         return_code, output = call_external_program(ffmpeg, *ffmpeg_args)
 
 
-def split_all_episodes(all_episode_data, raw_dir, output_dir, ffmpeg):
+def split_all_episodes(
+        all_episode_data, raw_dir, output_dir, ffmpeg, overwrite):
     for episode_data in all_episode_data:
-        episode_filename = download_file(episode_data['mp3_url'], raw_dir)
-        split_episode(episode_data, episode_filename, output_dir, ffmpeg)
+        episode_filename = download_file(
+            episode_data['mp3_url'], raw_dir, overwrite)
+        split_episode(
+            episode_data, episode_filename, output_dir, ffmpeg, overwrite)
 
 
 def main(*args):
@@ -150,7 +168,7 @@ def main(*args):
     all_episode_data = yaml.safe_load(script_args.data_file)
     split_all_episodes(
         all_episode_data, script_args.raw_dir, script_args.output_dir,
-        script_args.ffmpeg)
+        script_args.ffmpeg, script_args.overwrite)
 
 
 if __name__ == '__main__':
