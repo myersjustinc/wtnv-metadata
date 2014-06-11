@@ -42,7 +42,7 @@ parser.add_argument(
 parser.add_argument(
     '--ffmpeg', '-f',
     default='/usr/local/bin/ffmpeg',
-    help='Path to ffmpeg')
+    help='Path to ffmpeg 2.2 or later')
 parser.add_argument(
     '--overwrite', '-w',
     action='store_true',
