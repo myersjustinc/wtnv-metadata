@@ -18,8 +18,8 @@ def directory(path):
     try:
         os.makedirs(path)
     except OSError:
-        raise argparse.ArgumentTypeError(
-            '{0} is not a valid directory'.format(path))
+        pass
+    return path
 
 
 parser = argparse.ArgumentParser(
