@@ -55,6 +55,17 @@ back episodes aren't tagged yet.
   [unitedstates](https://github.com/unitedstates) project's
   [legislator lists](https://github.com/unitedstates/congress-legislators).
 
+* **Can I add other data to the episode file?**
+
+  Sure! I just need at least the following for each episode:
+
+  * episode number
+  * title
+  * MP3 URL (from [libsyn](nightvale.libsyn.com))
+  * segments, each with a title (short and spoiler-free) and a start time (in minutes and seconds)
+
+  Any other info is optional and welcomed.
+
 * **Where can I download segments of WTNV episodes?**
 
   Not here. I don't want to get involved with copyright infringement by
