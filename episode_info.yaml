@@ -516,8 +516,38 @@
   title: The Man in the Tan Jacket
   mp3_url: http://traffic.libsyn.com/nightvale/14-TheManintheTanJacket.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 19]
+    - title: Fireworks
+      start: [0, 56]
+    - title: The Man
+      start: [1, 57]
+    - title: Career fair
+      start: [3, 28]
+    - title: Underground City
+      start: [4, 52]
+    - title: Flies
+      start: [8, 16]
+    - title: Daily Journal
+      start: [9, 26]
+    - title: Children's Fun Fact Science Corner
+      start: [11, 12]
+    - title: Sponsor
+      start: [12, 39]
+    - title: Lookout
+      start: [13, 47]
+    - title: Traffic
+      start: [16, 37]
+    - title: Weather
+      start: [18, 21]
+    - title: Call
+      start: [20, 5]
+    - title: Good night
+      start: [22, 41]
+    - title: Credits
+      start: [23, 21]
 - episode_number: 15
   title: Street Cleaning Day
   mp3_url: http://traffic.libsyn.com/nightvale/15-StreetCleaningDay2.mp3
