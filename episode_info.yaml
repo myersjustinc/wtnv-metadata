@@ -472,8 +472,46 @@
   title: A Story About You.
   mp3_url: http://traffic.libsyn.com/nightvale/13-Astoryaboutyou.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Your home
+      start: [0, 35]
+    - title: Your past
+      start: [1, 27]
+    - title: A vision
+      start: [2, 18]
+    - title: Crates
+      start: [3, 45]
+    - title: Back home
+      start: [5, 33]
+    - title: Howl
+      start: [6, 40]
+    - title: Driving
+      start: [7, 38]
+    - title: Diner
+      start: [8, 57]
+    - title: Apache Tracker
+      start: [10, 2]
+    - title: Check
+      start: [12, 2]
+    - title: Weather
+      start: [12, 49]
+    - title: Fleeing
+      start: [15, 9]
+    - title: Desert
+      start: [17, 53]
+    - title: Attacks
+      start: [18, 23]
+    - title: Black car
+      start: [19, 20]
+    - title: Consequences
+      start: [21, 4]
+    - title: Contents
+      start: [22, 10]
+    - title: Good night
+      start: [23, 46]
+    - title: Credits
+      start: [24, 34]
 - episode_number: 14
   title: The Man in the Tan Jacket
   mp3_url: http://traffic.libsyn.com/nightvale/14-TheManintheTanJacket.mp3
