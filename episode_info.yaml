@@ -590,8 +590,38 @@
   title: The Phone Call
   mp3_url: http://traffic.libsyn.com/nightvale/16-ThePhoneCall.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 11]
+    - title: Daily Journal
+      start: [0, 46]
+    - title: Urgent message
+      start: [2, 4]
+    - title: Carlos
+      start: [3, 31]
+    - title: Neat!
+      start: [5, 47]
+    - title: The Underground City
+      start: [7, 12]
+    - title: Neighborhood Watch
+      start: [9, 9]
+    - title: Library
+      start: [11, 5]
+    - title: Traffic
+      start: [12, 44]
+    - title: Voicemails
+      start: [14, 3]
+    - title: Weather
+      start: [16, 35]
+    - title: Plans
+      start: [20, 43]
+    - title: Correction
+      start: [22, 14]
+    - title: Good night
+      start: [23, 10]
+    - title: Credits
+      start: [23, 43]
 - episode_number: 17
   title: Valentine
   mp3_url: http://traffic.libsyn.com/nightvale/17-Valentine.mp3
