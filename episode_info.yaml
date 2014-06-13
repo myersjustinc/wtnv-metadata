@@ -552,8 +552,40 @@
   title: Street Cleaning Day
   mp3_url: http://traffic.libsyn.com/nightvale/15-StreetCleaningDay2.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 17]
+    - title: Warning
+      start: [0, 49]
+    - title: Door
+      start: [2, 2]
+    - title: Buddy Holly
+      start: [3, 40]
+    - title: Organized crime
+      start: [4, 23]
+    - title: Vacation
+      start: [6, 21]
+    - title: Sponsor
+      start: [7, 47]
+    - title: Clouds
+      start: [9, 17]
+    - title: Censored
+      start: [10, 21]
+    - title: Sirens
+      start: [11, 44]
+    - title: Traffic
+      start: [12, 54]
+    - title: Possibilities
+      start: [13, 47]
+    - title: Weather
+      start: [14, 45]
+    - title: Survival
+      start: [18, 9]
+    - title: Good night
+      start: [21, 18]
+    - title: Credits
+      start: [21, 56]
 - episode_number: 16
   title: The Phone Call
   mp3_url: http://traffic.libsyn.com/nightvale/16-ThePhoneCall.mp3
