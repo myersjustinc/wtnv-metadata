@@ -820,3 +820,9 @@
   segments:
     - title: Full episode (not yet split)
       start: [0, 0]
+- episode_number: 49
+  title: Old Oak Doors Part A
+  mp3_url: http://traffic.libsyn.com/nightvale/49_-_Old_Oak_Doors_Part_A.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
