@@ -626,8 +626,38 @@
   title: Valentine
   mp3_url: http://traffic.libsyn.com/nightvale/17-Valentine.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 14]
+    - title: Aftermath
+      start: [0, 44]
+    - title: Airport
+      start: [2, 1]
+    - title: Health tip
+      start: [4, 30]
+    - title: Damage
+      start: [5, 4]
+    - title: Dance
+      start: [6, 54]
+    - title: Traffic
+      start: [8, 55]
+    - title: Corrections
+      start: [10, 29]
+    - title: Art installation
+      start: [11, 41]
+    - title: Mayor
+      start: [13, 31]
+    - title: Post office
+      start: [15, 18]
+    - title: Weather
+      start: [17, 36]
+    - title: Update
+      start: [22, 21]
+    - title: Good night
+      start: [23, 33]
+    - title: Credits
+      start: [24, 38]
 - episode_number: 18
   title: The Traveler
   mp3_url: http://traffic.libsyn.com/nightvale/18-TheTraveler.mp3
