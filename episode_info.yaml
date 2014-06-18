@@ -662,8 +662,38 @@
   title: The Traveler
   mp3_url: http://traffic.libsyn.com/nightvale/18-TheTraveler.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 19]
+    - title: Traveler
+      start: [1, 14]
+    - title: Press conference
+      start: [3, 42]
+    - title: Believing
+      start: [5, 14]
+    - title: Ralph's
+      start: [7, 21]
+    - title: Corrections
+      start: [8, 48]
+    - title: The future
+      start: [11, 7]
+    - title: Paid editorial
+      start: [12, 33]
+    - title: Community Calendar
+      start: [13, 13]
+    - title: Weather
+      start: [14, 28]
+    - title: Gone
+      start: [17, 11]
+    - title: Jerry's Tacos
+      start: [18. 56]
+    - title: Additions
+      start: [19, 33]
+    - title: Good night
+      start: [20, 58]
+    - title: Credits
+      start: [24, 8]
 - episode_number: 19A
   title: The Sandstorm
   mp3_url: http://traffic.libsyn.com/nightvale/19a-TheSandstorm.mp3
