@@ -770,8 +770,46 @@
   title: Poetry Week
   mp3_url: http://traffic.libsyn.com/nightvale/20-PoetryWeek.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 46]
+    - title: Today
+      start: [1, 16]
+    - title: Poet laureate
+      start: [2, 55]
+    - title: Zoo
+      start: [4, 55]
+    - title: Mayor
+      start: [6, 13]
+    - title: Sheriff
+      start: [6, 59]
+    - title: Teacher
+      start: [8, 18]
+    - title: Tourism board
+      start: [9, 13]
+    - title: Billboards
+      start: [10, 17]
+    - title: Traffic
+      start: [11, 55]
+    - title: Note
+      start: [14, 30]
+    - title: Sponsor
+      start: [16, 44]
+    - title: Dog park
+      start: [18, 24]
+    - title: Weather
+      start: [20, 54]
+    - title: Erika
+      start: [23, 30]
+    - title: Dana
+      start: [25, 17]
+    - title: Another poem
+      start: [25, 41]
+    - title: Good night
+      start: [27, 17]
+    - title: Credits
+      start: [28, 41]
 - episode_number: 21
   title: A Memory of Europe
   mp3_url: http://traffic.libsyn.com/nightvale/21-AMemoryofEurope.mp3
