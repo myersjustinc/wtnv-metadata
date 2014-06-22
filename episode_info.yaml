@@ -698,14 +698,74 @@
   title: The Sandstorm
   mp3_url: http://traffic.libsyn.com/nightvale/19a-TheSandstorm.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Announcement
+      start: [0, 36]
+    - title: Baseball
+      start: [2, 47]
+    - title: Traffic
+      start: [4, 12]
+    - title: Sand
+      start: [5, 20]
+    - title: Financial news
+      start: [7, 13]
+    - title: Press conference
+      start: [9, 38]
+    - title: Intern
+      start: [11, 15]
+    - title: Sponsor
+      start: [11, 33]
+    - title: Email
+      start: [13, 9]
+    - title: Vortex
+      start: [15, 45]
+    - title: Hello
+      start: [17, 0]
+    - title: Weather
+      start: [18, 54]
+    - title: Return
+      start: [21, 18]
+    - title: Sign-off
+      start: [22, 38]
+    - title: Credits
+      start: [23, 56]
 - episode_number: 19B
   title: The Sandstorm
   mp3_url: http://traffic.libsyn.com/nightvale/19b-TheSandstorm.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Intro
       start: [0, 0]
+    - title: Announcement
+      start: [0, 18]
+    - title: Baseball
+      start: [2, 24]
+    - title: Traffic
+      start: [3, 41]
+    - title: Sand
+      start: [4, 37]
+    - title: Financial news
+      start: [6, 6]
+    - title: Press conference
+      start: [7, 57]
+    - title: Intern
+      start: [9, 4]
+    - title: Sponsor
+      start: [9, 21]
+    - title: Email
+      start: [10, 40]
+    - title: Vortex
+      start: [12, 45]
+    - title: Hello
+      start: [13, 47]
+    - title: Weather
+      start: [16, 35]
+    - title: Return
+      start: [21, 5]
+    - title: Sign-off
+      start: [21, 50]
+    - title: Credits
+      start: [22, 55]
 - episode_number: 20
   title: Poetry Week
   mp3_url: http://traffic.libsyn.com/nightvale/20-PoetryWeek.mp3
