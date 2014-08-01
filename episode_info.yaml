@@ -990,3 +990,15 @@
   segments:
     - title: Full episode (not yet split)
       start: [0, 0]
+- episode_number: 50
+  title: Capital Campaign
+  mp3_url: http://traffic.libsyn.com/nightvale/50_-_Capital_Campaign.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
+- episode_number: 51
+  title: Rumbling
+  mp3_url: http://traffic.libsyn.com/nightvale/5120-20Rumbling.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
