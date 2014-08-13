@@ -850,8 +850,32 @@
   title: The Whispering Forest
   mp3_url: http://traffic.libsyn.com/nightvale/22-TheWhisperingForest.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 33]
+    - title: New forest
+      start: [1, 11]
+    - title: School closings
+      start: [2, 49]
+    - title: Dream journals
+      start: [5, 27]
+    - title: Expedition
+      start: [8, 24]
+    - title: Community Calendar
+      start: [11, 0]
+    - title: Sponsor
+      start: [13, 40]
+    - title: Intern Richard
+      start: [16, 22]
+    - title: Weather
+      start: [18, 23]
+    - title: Good news and bad news
+      start: [22, 0]
+    - title: Good night
+      start: [23, 56]
+    - title: Credits
+      start: [25, 11]
 - episode_number: 23
   title: Eternal Scouts
   mp3_url: http://traffic.libsyn.com/nightvale/23-EternalScouts.mp3
