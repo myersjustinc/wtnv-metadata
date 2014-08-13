@@ -814,8 +814,38 @@
   title: A Memory of Europe
   mp3_url: http://traffic.libsyn.com/nightvale/21-AMemoryofEurope.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [0, 34]
+    - title: Militia watch
+      start: [1, 17]
+    - title: Svitz
+      start: [3, 26]
+    - title: Press conference
+      start: [6, 1]
+    - title: End of the world
+      start: [7, 14]
+    - title: Aquarium pump
+      start: [8, 56]
+    - title: Franchia
+      start: [9, 24]
+    - title: Traffic
+      start: [12, 58]
+    - title: Sponsor
+      start: [14, 43]
+    - title: Luftnarp
+      start: [16, 15]
+    - title: Spider
+      start: [18, 27]
+    - title: Weather
+      start: [19, 25]
+    - title: Nostalgia
+      start: [23, 52]
+    - title: Good night
+      start: [27, 29]
+    - title: Credits
+      start: [28, 43]
 - episode_number: 22
   title: The Whispering Forest
   mp3_url: http://traffic.libsyn.com/nightvale/22-TheWhisperingForest.mp3
