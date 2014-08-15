@@ -1056,3 +1056,9 @@
   segments:
     - title: Full episode (not yet split)
       start: [0, 0]
+- episode_number: 52
+  title: The Retirement of Pamela Winchell
+  mp3_url: http://traffic.libsyn.com/nightvale/5220-20The20Retirement20of20Pamela20Winchell.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
