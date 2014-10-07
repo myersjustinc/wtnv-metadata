@@ -1072,8 +1072,34 @@
   title: A Carnival Comes to Town
   mp3_url: http://traffic.libsyn.com/nightvale/5420-20A20Carnival20Comes20to20Town.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [1, 49]
+    - title: Caravan
+      start: [2, 23]
+    - title: Voicemail
+      start: [3, 44]
+    - title: Opera house
+      start: [6, 24]
+    - title: Unloading
+      start: [9, 51]
+    - title: Cleaning of the Books
+      start: [14, 9]
+    - title: Intern Maureen
+      start: [17, 57]
+    - title: Opening
+      start: [19, 23]
+    - title: Weather
+      start: [22, 24]
+    - title: Departure
+      start: [25, 47]
+    - title: Sad Maureen
+      start: [28, 8]
+    - title: Good night
+      start: [29, 4]
+    - title: Credits
+      start: [29, 32]
 - episode_number: 55
   title: The University of What It Is
   mp3_url: http://traffic.libsyn.com/nightvale/5520-20The20University20of20What20It20Is.mp3
