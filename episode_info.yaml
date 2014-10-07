@@ -1062,3 +1062,21 @@
   segments:
     - title: Full episode (not yet split)
       start: [0, 0]
+- episode_number: 53
+  title: The September Monologues
+  mp3_url: http://traffic.libsyn.com/nightvale/5320-20The20September20Monologues.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
+- episode_number: 54
+  title: A Carnival Comes to Town
+  mp3_url: http://traffic.libsyn.com/nightvale/5420-20A20Carnival20Comes20to20Town.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
+- episode_number: 55
+  title: The University of What It Is
+  mp3_url: http://traffic.libsyn.com/nightvale/5520-20The20University20of20What20It20Is.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
