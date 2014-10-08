@@ -1,7 +1,6 @@
 #!/usr/bin/env python
-from __future__ import print_function
-
 import argparse
+import logging
 import os
 import sys
 
@@ -26,6 +25,14 @@ parser.add_argument(
     type=argparse.FileType('r'),
     default=os.path.join(REPO_ROOT, 'episode_info.yaml'),
     help='YAML file with episode segment information')
+
+
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(message)s')
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(formatter)
+logger.addHandler(stream_handler)
 
 
 def check_overall_data_type(all_episode_data):
@@ -114,7 +121,7 @@ def check_required_episode_data(episode):
 
     for segment in segments:
         check_required_segment_data(segment)
-        print('    Segment data OK for "{title}"'.format(**segment))
+        logger.info('    Segment data OK for "{title}"'.format(**segment))
 
 
 def main(*args):
@@ -122,13 +129,13 @@ def main(*args):
     all_episode_data = yaml.safe_load(script_args.data_file)
 
     check_overall_data_type(all_episode_data)
-    print('Overall data type OK\n')
+    logger.info('Overall data type OK\n')
 
     for episode in all_episode_data:
         check_required_episode_data(episode)
-        print('Episode data OK for "{title}"\n'.format(**episode))
+        logger.info('Episode data OK for "{title}"\n'.format(**episode))
 
-    print('All OK!')
+    logger.info('All OK!')
 
 
 if __name__ == '__main__':
