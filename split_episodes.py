@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 import argparse
+import logging
 import os
 import posixpath
 import re
@@ -50,6 +51,14 @@ parser.add_argument(
     help='Overwrite existing files')
 
 
+logger = logging.getLogger(__name__)
+logger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(message)s')
+stream_handler = logging.StreamHandler()
+stream_handler.setFormatter(formatter)
+logger.addHandler(stream_handler)
+
+
 def call_external_program(*args):
     """
     Provides uniform interface to subprocess.check_output.
@@ -68,23 +77,26 @@ def call_external_program(*args):
 
 def download_file(remote_url, raw_dir, overwrite=False):
     """
-    Downloads a remote file and returns its path.
+    Downloads a remote file.
 
     If a file already exists at the intended path and `overwrite` is False (the
     default), the download does not take place.
+
+    Returns the local path to the file and a boolean saying whether the file
+    was downloaded just now or whether it existed before and was left alone.
     """
     filename_only = posixpath.basename(parse.urlparse(remote_url).path)
     local_filename = os.path.join(raw_dir, filename_only)
 
     if os.path.exists(local_filename) and not overwrite:
-        return local_filename
+        return local_filename, False
 
     remote_file = request.urlopen(remote_url)
     with open(local_filename, 'wb') as local_file:
         shutil.copyfileobj(remote_file, local_file)
     remote_file.close()
 
-    return local_filename
+    return local_filename, True
 
 
 def split_episode(
@@ -174,6 +186,8 @@ def split_episode(
 
         # Tell ffmpeg to do the hard work.
         return_code, output = call_external_program(ffmpeg, *ffmpeg_args)
+        if return_code == 0:
+            logger.debug('Wrote segment "{title}"'.format(**current_segment))
 
 
 def split_all_episodes(
@@ -193,10 +207,14 @@ def split_all_episodes(
     overwritten.
     """
     for episode_data in all_episode_data:
-        episode_filename = download_file(
+        episode_filename, episode_downloaded = download_file(
             episode_data['mp3_url'], raw_dir, overwrite)
+        if episode_downloaded:
+            logger.debug('Downloaded "{title}"'.format(**episode_data))
+
         split_episode(
             episode_data, episode_filename, output_dir, ffmpeg, overwrite)
+        logger.info('Done with "{title}"'.format(**episode_data))
 
 
 def main(*args):
