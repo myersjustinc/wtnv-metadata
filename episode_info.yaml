@@ -1104,5 +1104,33 @@
   title: The University of What It Is
   mp3_url: http://traffic.libsyn.com/nightvale/5520-20The20University20of20What20It20Is.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [2, 21]
+    - title: Call
+      start: [2, 57]
+    - title: Khoshekh
+      start: [5, 17]
+    - title: Sponsor
+      start: [7, 0]
+    - title: Follow-up
+      start: [9, 23]
+    - title: Community Calendar
+      start: [10, 58]
+    - title: Pawn shop
+      start: [14, 1]
+    - title: Corrections
+      start: [15, 8]
+    - title: Interlopers
+      start: [16, 1]
+    - title: Weather
+      start: [19, 19]
+    - title: Explanation
+      start: [23, 30]
+    - title: Contemplation
+      start: [27, 4]
+    - title: Good night
+      start: [29, 5]
+    - title: Credits
+      start: [29, 33]
