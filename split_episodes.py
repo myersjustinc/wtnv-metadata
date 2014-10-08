@@ -2,6 +2,7 @@
 import argparse
 import os
 import posixpath
+import re
 import shutil
 import subprocess
 import sys
@@ -158,10 +159,15 @@ def split_episode(
         ffmpeg_args.extend(['-write_xing', '0'])
 
         # Determine where the segment should be saved.
+        episode_number_match = re.match(r'^(\d+)(.*)$', str(episode_number))
+        episode_number_number, episode_number_suffix = (
+            episode_number_match.groups() if episode_number_match
+            else ('', ''))
         ffmpeg_args.append(os.path.join(output_dir, (
-            '{episode_number:0>3}-{episode_title}-'
-            '{segment_number:0>2}-{segment_title}.mp3'.format(
-                episode_number=episode_number,
+            '{episode_number_number:0>3}{episode_number_suffix}-'
+            '{episode_title}-{segment_number:0>2}-{segment_title}.mp3'.format(
+                episode_number_number=episode_number_number,
+                episode_number_suffix=episode_number_suffix,
                 episode_title=episode_title,
                 segment_number=segment_number,
                 segment_title=segment_title))))
