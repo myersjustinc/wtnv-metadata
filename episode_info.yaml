@@ -1134,3 +1134,9 @@
       start: [29, 5]
     - title: Credits
       start: [29, 33]
+- episode_number: 56
+  title: Homecoming
+  mp3_url: http://traffic.libsyn.com/nightvale/5620-20Homecoming.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
