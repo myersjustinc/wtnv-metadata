@@ -880,8 +880,40 @@
   title: Eternal Scouts
   mp3_url: http://traffic.libsyn.com/nightvale/23-EternalScouts.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [1, 54]
+    - title: Kittens
+      start: [2, 29]
+    - title: Announcement
+      start: [3, 43]
+    - title: Meritocracy
+      start: [5, 3]
+    - title: Preparations
+      start: [7, 24]
+    - title: Vending machines
+      start: [8, 56]
+    - title: Recruitment drive
+      start: [10, 38]
+    - title: Last chance
+      start: [12, 40]
+    - title: Sponsor
+      start: [14, 17]
+    - title: Community Health Tips
+      start: [15, 17]
+    - title: Ceremony
+      start: [16, 52]
+    - title: Weather
+      start: [17, 57]
+    - title: Attack
+      start: [21, 32]
+    - title: Preservation
+      start: [23, 17]
+    - title: Good night
+      start: [24, 4]
+    - title: Credits
+      start: [25, 20]
 - episode_number: 24
   title: The Mayor
   mp3_url: http://traffic.libsyn.com/nightvale/24-TheMayor.mp3
