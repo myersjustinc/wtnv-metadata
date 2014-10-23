@@ -1170,5 +1170,31 @@
   title: Homecoming
   mp3_url: http://traffic.libsyn.com/nightvale/5620-20Homecoming.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [2, 41]
+    - title: Homecoming
+      start: [3, 18]
+    - title: PSA
+      start: [5, 9]
+    - title: Scandal
+      start: [6, 44]
+    - title: Tiramisu
+      start: [9, 43]
+    - title: Sponsor
+      start: [15, 7]
+    - title: Cancellation
+      start: [17, 31]
+    - title: Weather
+      start: [18, 57]
+    - title: Investigation
+      start: [22, 49]
+    - title: Pep rally
+      start: [25, 33]
+    - title: Malik
+      start: [27, 53]
+    - title: Good night
+      start: [29, 22]
+    - title: Credits
+      start: [30, 12]
