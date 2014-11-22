@@ -1198,3 +1198,15 @@
       start: [29, 22]
     - title: Credits
       start: [30, 12]
+- episode_number: B01
+  title: Bonus Episode 1 - Minutes
+  mp3_url: http://traffic.libsyn.com/nightvale/Bonus20Ep20120-20Minutes.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
+- episode_number: B02
+  title: Bonus Episode 2 - What of the Sea?
+  mp3_url: http://traffic.libsyn.com/nightvale/Bonus20Ep20220-20What20of20the20Sea.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
