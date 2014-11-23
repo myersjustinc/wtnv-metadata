@@ -918,8 +918,30 @@
   title: The Mayor
   mp3_url: http://traffic.libsyn.com/nightvale/24-TheMayor.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [1, 27]
+    - title: Missing
+      start: [2, 2]
+    - title: Once on This Island
+      start: [4, 13]
+    - title: Children's Fun Fact Science Corner
+      start: [6, 12]
+    - title: Sighting
+      start: [8, 16]
+    - title: Sponsor
+      start: [12, 6]
+    - title: Witnesses
+      start: [14, 32]
+    - title: Weather
+      start: [18, 28]
+    - title: Press conference
+      start: [21, 40]
+    - title: Good night
+      start: [27, 14]
+    - title: Credits
+      start: [27, 42]
 - episode_number: 25
   title: One Year Later
   mp3_url: http://traffic.libsyn.com/nightvale/25-OneYearLater.mp3
