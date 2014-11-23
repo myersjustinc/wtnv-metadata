@@ -946,8 +946,40 @@
   title: One Year Later
   mp3_url: http://traffic.libsyn.com/nightvale/25-OneYearLater.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [1, 18]
+    - title: Disturbance
+      start: [2, 3]
+    - title: Carlos
+      start: [4, 54]
+    - title: Airliner
+      start: [7, 28]
+    - title: NRA
+      start: [8, 58]
+    - title: Scrub Lands and Sand Wastes
+      start: [10, 1]
+    - title: The City
+      start: [10, 27]
+    - title: Tiered Heavens
+      start: [13, 58]
+    - title: Attack
+      start: [14, 49]
+    - title: PSA
+      start: [16, 34]
+    - title: Rescue
+      start: [18, 10]
+    - title: Weather
+      start: [23, 15]
+    - title: Meeting
+      start: [27, 14]
+    - title: Somewhere
+      start: [28, 46]
+    - title: Good night
+      start: [30, 24]
+    - title: Credits
+      start: [31, 4]
 - episode_number: 26
   title: Faceless Old Woman
   mp3_url: http://traffic.libsyn.com/nightvale/26-FacelessOldWoman.mp3
