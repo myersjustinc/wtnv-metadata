@@ -1268,8 +1268,38 @@
   title: The List
   mp3_url: http://traffic.libsyn.com/nightvale/5720-20The20List.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [1, 54]
+    - title: Someday
+      start: [2, 40]
+    - title: Found
+      start: [3, 35]
+    - title: Meatless Mondays
+      start: [5, 36]
+    - title: Traffic
+      start: [6, 43]
+    - title: Update
+      start: [9, 20]
+    - title: Sponsor
+      start: [11, 1]
+    - title: Opera
+      start: [12, 17]
+    - title: You
+      start: [13, 38]
+    - title: Sun
+      start: [16, 53]
+    - title: Weather
+      start: [18, 29]
+    - title: Alive
+      start: [21, 55]
+    - title: Danger
+      start: [27, 25]
+    - title: Good night
+      start: [28, 30]
+    - title: Credits
+      start: [29, 22]
 - episode_number: 58
   title: Monolith
   mp3_url: http://traffic.libsyn.com/nightvale/58_-_Monolith.mp3
