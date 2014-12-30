@@ -1262,8 +1262,28 @@
   title: Bonus Episode 2 - What of the Sea?
   mp3_url: http://traffic.libsyn.com/nightvale/Bonus20Ep20220-20What20of20the20Sea.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Envelope
+      start: [2, 1]
+    - title: Moving on
+      start: [5, 12]
+    - title: Signed
+      start: [7, 49]
+    - title: Thoughts
+      start: [9, 27]
+    - title: Confusion
+      start: [11, 52]
+    - title: Weather
+      start: [13, 30]
+    - title: Unknown
+      start: [16, 34]
+    - title: Opening
+      start: [17, 12]
+    - title: Earthquake
+      start: [19, 27]
+    - title: Credits
+      start: [20, 26]
 - episode_number: 57
   title: The List
   mp3_url: http://traffic.libsyn.com/nightvale/5720-20The20List.mp3
