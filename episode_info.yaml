@@ -1324,5 +1324,33 @@
   title: Monolith
   mp3_url: http://traffic.libsyn.com/nightvale/58_-_Monolith.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [1, 49]
+    - title: New arrival
+      start: [2, 25]
+    - title: Carlos
+      start: [3, 59]
+    - title: Drawbridge
+      start: [7, 37]
+    - title: Complaints
+      start: [9, 10]
+    - title: Sponsor
+      start: [11, 58]
+    - title: Protests
+      start: [14, 55]
+    - title: Sports
+      start: [17, 13]
+    - title: Release
+      start: [19, 59]
+    - title: Weather
+      start: [21, 56]
+    - title: Aftermath
+      start: [25, 13]
+    - title: Reactions
+      start: [29, 41]
+    - title: Good night
+      start: [30, 54]
+    - title: Credits
+      start: [31, 14]
