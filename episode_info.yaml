@@ -1354,3 +1354,21 @@
       start: [30, 54]
     - title: Credits
       start: [31, 14]
+- episode_number: 59
+  title: Antiques
+  mp3_url: http://traffic.libsyn.com/nightvale/5920-20Antiques.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
+- episode_number: 60
+  title: Water Failure
+  mp3_url: http://traffic.libsyn.com/nightvale/6020-20Water20Failure.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
+- episode_number: 61
+  title: BRINY DEPTHS
+  mp3_url: http://traffic.libsyn.com/nightvale/6120-20BRINY20DEPTHS.mp3
+  segments:
+    - title: Full episode (not yet split)
+      start: [0, 0]
