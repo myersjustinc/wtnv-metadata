@@ -1370,5 +1370,213 @@
   title: BRINY DEPTHS
   mp3_url: http://traffic.libsyn.com/nightvale/6120-20BRINY20DEPTHS.mp3
   segments:
-    - title: Full episode (not yet split)
+    - title: Pre-roll
       start: [0, 0]
+    - title: Intro
+      start: [2, 19]
+    - title: Urgent message
+      start: [3, 0]
+    - title: Diner
+      start: [4, 20]
+    - title: Cooking Stuff with Earl Harlan
+      start: [6, 0]
+    - title: Repeat
+      start: [10, 19]
+    - title: Baseball diamond
+      start: [12, 0]
+    - title: Mail
+      start: [14, 28]
+    - title: Photo
+      start: [17, 13]
+    - title: Again
+      start: [18, 12]
+    - title: Weather
+      start: [20, 31]
+    - title: Everyone
+      start: [24, 55]
+    - title: Secrets
+      start: [27, 10]
+    - title: Ourselves
+      start: [28, 25]
+    - title: Good night
+      start: [29, 12]
+    - title: Credits
+      start: [29, 39]
+- episode_number: 62
+  title: Hatchets
+  mp3_url: http://traffic.libsyn.com/nightvale/6220-20Hatchets.mp3
+  segments:
+    - title: Pre-roll
+      start: [0, 0]
+    - title: Intro
+      start: [2, 37]
+    - title: Newspapers
+      start: [3, 16]
+    - title: Traffic
+      start: [5, 18]
+    - title: Editorial
+      start: [8, 37]
+    - title: Information
+      start: [12, 9]
+    - title: Murder
+      start: [12, 54]
+    - title: Sponsor
+      start: [15, 22]
+    - title: Parade
+      start: [17, 25]
+    - title: Weather
+      start: [20, 31]
+    - title: Intern Maureen
+      start: [23, 32]
+    - title: Michigan
+      start: [28, 30]
+    - title: Resignation
+      start: [30, 30]
+    - title: Good night
+      start: [31, 15]
+    - title: Credits
+      start: [32, 9]
+- episode_number: 63
+  title: "There Is No Part 1: Part 2"
+  mp3_url: http://traffic.libsyn.com/nightvale/6320-20There20Is20No20Part201_20Part202.mp3
+  segments:
+    - title: Pre-roll
+      start: [0, 0]
+    - title: Intro
+      start: [1, 46]
+    - title: Sand golem
+      start: [2, 17]
+    - title: City Hall
+      start: [4, 18]
+    - title: Lot 37
+      start: [6, 0]
+    - title: Desert Flower Bowling Alley and Arcade Fun Complex
+      start: [7, 23]
+    - title: Sponsor
+      start: [8, 44]
+    - title: A man
+      start: [11, 13]
+    - title: Hero
+      start: [12, 42]
+    - title: Children's Fun Fact Science Corner
+      start: [14, 42]
+    - title: Candidates
+      start: [16, 47]
+    - title: Weather
+      start: [19, 35]
+    - title: Fight
+      start: [25, 51]
+    - title: Purpose
+      start: [27, 44]
+    - title: Good night
+      start: [29, 3]
+    - title: Credits
+      start: [29, 47]
+- episode_number: B03
+  title: '"The Librarian" Horoscopes'
+  mp3_url: http://traffic.libsyn.com/nightvale/BONUS20-20_The20Librarian_20Horoscopes.mp3
+  segments:
+    - title: Pre-roll
+      start: [0, 0]
+    - title: Aries
+      start: [0, 36]
+    - title: Taurus
+      start: [1, 13]
+    - title: Gemini
+      start: [1, 45]
+    - title: Cancer
+      start: [2, 27]
+    - title: Leo
+      start: [3, 7]
+    - title: Virgo
+      start: [3, 27]
+    - title: Libra
+      start: [4, 3]
+    - title: Scorpio
+      start: [4, 41]
+    - title: Sagittarius
+      start: [5, 28]
+    - title: Capricorn
+      start: [5, 40]
+    - title: Aquarius
+      start: [5, 57]
+    - title: Pisces
+      start: [6, 12]
+    - title: Credits
+      start: [6, 48]
+- episode_number: 64
+  title: WE MUST GIVE PRAISE
+  mp3_url: http://traffic.libsyn.com/nightvale/6420-20WE20MUST20GIVE20PRAISE.mp3
+  segments:
+    - title: Pre-roll
+      start: [0, 0]
+    - title: Intro
+      start: [2, 47]
+    - title: Strategic plan
+      start: [3, 21]
+    - title: Fugitives
+      start: [5, 3]
+    - title: Carlos
+      start: [7, 17]
+    - title: Community Calendar
+      start: [9, 23]
+    - title: PTA
+      start: [13, 23]
+    - title: Financial news
+      start: [14, 41]
+    - title: Frank Chen
+      start: [15, 53]
+    - title: Rejection
+      start: [17, 54]
+    - title: Weather
+      start: [19, 46]
+    - title: Compromise
+      start: [23, 26]
+    - title: Damage
+      start: [25, 5]
+    - title: Good night
+      start: [26, 40]
+    - title: Credits
+      start: [27, 5]
+- episode_number: 65
+  title: Voicemail
+  mp3_url: http://traffic.libsyn.com/nightvale/6520-20Voicemail.mp3
+  segments:
+    - title: Pre-roll
+      start: [0, 0]
+    - title: Greeting
+      start: [2, 33]
+    - title: Carlos
+      start: [3, 30]
+    - title: Michelle
+      start: [5, 28]
+    - title: Steve
+      start: [5, 54]
+    - title: Tamika
+      start: [7, 7]
+    - title: Earl
+      start: [8, 5]
+    - title: Fey
+      start: [9, 10]
+    - title: Carlos
+      start: [9, 48]
+    - title: Deb
+      start: [11, 41]
+    - title: Faceless Old Woman
+      start: [12, 31]
+    - title: Old Woman Josie
+      start: [13, 52]
+    - title: Dana
+      start: [14, 15]
+    - title: Carlos
+      start: [15, 51]
+    - title: '"Frank"'
+      start: [16, 21]
+    - title: Weather
+      start: [17, 21]
+    - title: Carlos
+      start: [20, 17]
+    - title: Kevin
+      start: [21, 37]
+    - title: Credits
+      start: [22, 8]
